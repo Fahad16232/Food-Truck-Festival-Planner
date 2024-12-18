@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600292C52D105E8700B267C8 /* Food_Truck_Festival_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292C42D105E8700B267C8 /* Food_Truck_Festival_PlannerApp.swift */; };
+		600292C92D105E8900B267C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600292C82D105E8900B267C8 /* Assets.xcassets */; };
+		600292CC2D105E8900B267C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600292CB2D105E8900B267C8 /* Preview Assets.xcassets */; };
+		600292D32D10612200B267C8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292D22D10612200B267C8 /* Model.swift */; };
+		600292D52D10622300B267C8 /* FoodTruckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292D42D10622300B267C8 /* FoodTruckManager.swift */; };
+		600292D72D10633700B267C8 /* FoodTruckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292D62D10633700B267C8 /* FoodTruckListView.swift */; };
+		600292D92D10634B00B267C8 /* AddEditFoodTruckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292D82D10634B00B267C8 /* AddEditFoodTruckView.swift */; };
+		600292DD2D10662C00B267C8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292DC2D10662C00B267C8 /* ImagePicker.swift */; };
+		600292DF2D10684B00B267C8 /* FestivalEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292DE2D10684B00B267C8 /* FestivalEventManager.swift */; };
+		600292E12D106A7200B267C8 /* FestivalEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292E02D106A7200B267C8 /* FestivalEventListView.swift */; };
+		600292E32D106A8A00B267C8 /* AddEditFestivalEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292E22D106A8A00B267C8 /* AddEditFestivalEventView.swift */; };
+		600292E52D106C8100B267C8 /* VendorInventoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292E42D106C8100B267C8 /* VendorInventoryManager.swift */; };
+		600292E72D106D2500B267C8 /* VendorInventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292E62D106D2500B267C8 /* VendorInventoryListView.swift */; };
+		600292E92D106D9400B267C8 /* AddEditVendorInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292E82D106D9300B267C8 /* AddEditVendorInventoryView.swift */; };
+		600292EB2D106FD500B267C8 /* LogisticsPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292EA2D106FD500B267C8 /* LogisticsPlanManager.swift */; };
+		600292ED2D10705800B267C8 /* LogisticsPlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292EC2D10705800B267C8 /* LogisticsPlanListView.swift */; };
+		600292EF2D10709300B267C8 /* AddEditLogisticsPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292EE2D10709300B267C8 /* AddEditLogisticsPlanView.swift */; };
+		600292F12D1074B000B267C8 /* OverviewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600292F02D1074B000B267C8 /* OverviewTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600292C12D105E8700B267C8 /* Food Truck Festival Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Truck Festival Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600292C42D105E8700B267C8 /* Food_Truck_Festival_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Truck_Festival_PlannerApp.swift; sourceTree = "<group>"; };
+		600292C82D105E8900B267C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		600292CB2D105E8900B267C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		600292D22D10612200B267C8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		600292D42D10622300B267C8 /* FoodTruckManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckManager.swift; sourceTree = "<group>"; };
+		600292D62D10633700B267C8 /* FoodTruckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckListView.swift; sourceTree = "<group>"; };
+		600292D82D10634B00B267C8 /* AddEditFoodTruckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditFoodTruckView.swift; sourceTree = "<group>"; };
+		600292DC2D10662C00B267C8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		600292DE2D10684B00B267C8 /* FestivalEventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalEventManager.swift; sourceTree = "<group>"; };
+		600292E02D106A7200B267C8 /* FestivalEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalEventListView.swift; sourceTree = "<group>"; };
+		600292E22D106A8A00B267C8 /* AddEditFestivalEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditFestivalEventView.swift; sourceTree = "<group>"; };
+		600292E42D106C8100B267C8 /* VendorInventoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorInventoryManager.swift; sourceTree = "<group>"; };
+		600292E62D106D2500B267C8 /* VendorInventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorInventoryListView.swift; sourceTree = "<group>"; };
+		600292E82D106D9300B267C8 /* AddEditVendorInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditVendorInventoryView.swift; sourceTree = "<group>"; };
+		600292EA2D106FD500B267C8 /* LogisticsPlanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticsPlanManager.swift; sourceTree = "<group>"; };
+		600292EC2D10705800B267C8 /* LogisticsPlanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticsPlanListView.swift; sourceTree = "<group>"; };
+		600292EE2D10709300B267C8 /* AddEditLogisticsPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditLogisticsPlanView.swift; sourceTree = "<group>"; };
+		600292F02D1074B000B267C8 /* OverviewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600292BE2D105E8700B267C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600292B82D105E8700B267C8 = {
+			isa = PBXGroup;
+			children = (
+				600292C32D105E8700B267C8 /* Food Truck Festival Planner */,
+				600292C22D105E8700B267C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600292C22D105E8700B267C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600292C12D105E8700B267C8 /* Food Truck Festival Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600292C32D105E8700B267C8 /* Food Truck Festival Planner */ = {
+			isa = PBXGroup;
+			children = (
+				600292C42D105E8700B267C8 /* Food_Truck_Festival_PlannerApp.swift */,
+				600292F22D10757100B267C8 /* Model */,
+				600292F32D10757D00B267C8 /* View */,
+				600292F42D1075C600B267C8 /* ViewModel */,
+				600292C82D105E8900B267C8 /* Assets.xcassets */,
+				600292CA2D105E8900B267C8 /* Preview Content */,
+			);
+			path = "Food Truck Festival Planner";
+			sourceTree = "<group>";
+		};
+		600292CA2D105E8900B267C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				600292CB2D105E8900B267C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		600292F22D10757100B267C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				600292D22D10612200B267C8 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		600292F32D10757D00B267C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				600292E82D106D9300B267C8 /* AddEditVendorInventoryView.swift */,
+				600292D62D10633700B267C8 /* FoodTruckListView.swift */,
+				600292D82D10634B00B267C8 /* AddEditFoodTruckView.swift */,
+				600292E02D106A7200B267C8 /* FestivalEventListView.swift */,
+				600292E22D106A8A00B267C8 /* AddEditFestivalEventView.swift */,
+				600292E62D106D2500B267C8 /* VendorInventoryListView.swift */,
+				600292EC2D10705800B267C8 /* LogisticsPlanListView.swift */,
+				600292EE2D10709300B267C8 /* AddEditLogisticsPlanView.swift */,
+				600292F02D1074B000B267C8 /* OverviewTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		600292F42D1075C600B267C8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				600292DC2D10662C00B267C8 /* ImagePicker.swift */,
+				600292D42D10622300B267C8 /* FoodTruckManager.swift */,
+				600292DE2D10684B00B267C8 /* FestivalEventManager.swift */,
+				600292EA2D106FD500B267C8 /* LogisticsPlanManager.swift */,
+				600292E42D106C8100B267C8 /* VendorInventoryManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600292C02D105E8700B267C8 /* Food Truck Festival Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600292CF2D105E8900B267C8 /* Build configuration list for PBXNativeTarget "Food Truck Festival Planner" */;
+			buildPhases = (
+				600292BD2D105E8700B267C8 /* Sources */,
+				600292BE2D105E8700B267C8 /* Frameworks */,
+				600292BF2D105E8700B267C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Truck Festival Planner";
+			productName = "Food Truck Festival Planner";
+			productReference = 600292C12D105E8700B267C8 /* Food Truck Festival Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600292B92D105E8700B267C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					600292C02D105E8700B267C8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 600292BC2D105E8700B267C8 /* Build configuration list for PBXProject "Food Truck Festival Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 600292B82D105E8700B267C8;
+			productRefGroup = 600292C22D105E8700B267C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600292C02D105E8700B267C8 /* Food Truck Festival Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600292BF2D105E8700B267C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600292CC2D105E8900B267C8 /* Preview Assets.xcassets in Resources */,
+				600292C92D105E8900B267C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600292BD2D105E8700B267C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600292EB2D106FD500B267C8 /* LogisticsPlanManager.swift in Sources */,
+				600292D92D10634B00B267C8 /* AddEditFoodTruckView.swift in Sources */,
+				600292DF2D10684B00B267C8 /* FestivalEventManager.swift in Sources */,
+				600292D72D10633700B267C8 /* FoodTruckListView.swift in Sources */,
+				600292D32D10612200B267C8 /* Model.swift in Sources */,
+				600292E12D106A7200B267C8 /* FestivalEventListView.swift in Sources */,
+				600292E92D106D9400B267C8 /* AddEditVendorInventoryView.swift in Sources */,
+				600292D52D10622300B267C8 /* FoodTruckManager.swift in Sources */,
+				600292ED2D10705800B267C8 /* LogisticsPlanListView.swift in Sources */,
+				600292E72D106D2500B267C8 /* VendorInventoryListView.swift in Sources */,
+				600292F12D1074B000B267C8 /* OverviewTabView.swift in Sources */,
+				600292EF2D10709300B267C8 /* AddEditLogisticsPlanView.swift in Sources */,
+				600292E32D106A8A00B267C8 /* AddEditFestivalEventView.swift in Sources */,
+				600292DD2D10662C00B267C8 /* ImagePicker.swift in Sources */,
+				600292E52D106C8100B267C8 /* VendorInventoryManager.swift in Sources */,
+				600292C52D105E8700B267C8 /* Food_Truck_Festival_PlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		600292CD2D105E8900B267C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600292CE2D105E8900B267C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600292D02D105E8900B267C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food Truck Festival Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck Festival Planner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Food-Truck-Festival-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		600292D12D105E8900B267C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food Truck Festival Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck Festival Planner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Food-Truck-Festival-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600292BC2D105E8700B267C8 /* Build configuration list for PBXProject "Food Truck Festival Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600292CD2D105E8900B267C8 /* Debug */,
+				600292CE2D105E8900B267C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600292CF2D105E8900B267C8 /* Build configuration list for PBXNativeTarget "Food Truck Festival Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600292D02D105E8900B267C8 /* Debug */,
+				600292D12D105E8900B267C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600292B92D105E8700B267C8 /* Project object */;
+}
